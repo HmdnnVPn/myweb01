@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloader Config HC/EHI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Downloader Config HC/EHI</h1>
+        <p>Pilih provider untuk mengunduh konfigurasi</p>
+    </header>
+    <main>
+        <section class="card" onclick="downloadConfig('axis')">
+            <h2>Axis</h2>
+            <button>Download Config Axis</button>
+        </section>
+        <section class="card" onclick="downloadConfig('telkomsel')">
+            <h2>Telkomsel</h2>
+            <button>Download Config Telkomsel</button>
+        </section>
+        <section class="card" onclick="downloadConfig('indosat')">
+            <h2>Indosat</h2>
+            <button>Download Config Indosat</button>
+        </section>
+    </main>
+    <footer>
+        <p>Downloader Config © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
