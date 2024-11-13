@@ -34,7 +34,7 @@ main {
 }
 
 .card {
-    background: #fff;
+    background-image: url('images/bg.jpg');
     border: 2px solid #e0e0e0;
     border-radius: 10px;
     padding: 20px;
