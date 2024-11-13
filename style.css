@@ -6,12 +6,7 @@
 }
 
 body {
-    background-image: url('./images/bg.jpg'); /* Ganti dengan nama file baru */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
+    background-image: url('https://raw.githubusercontent.com/HmdnnVPn/myweb01/main/images/bg.jpg');
 }
 header {
     text-align: center;
